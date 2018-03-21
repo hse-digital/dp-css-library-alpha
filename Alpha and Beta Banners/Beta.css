@@ -1,0 +1,44 @@
+.beta p {
+    display: block;
+    position: relative;
+    min-height: 46px;
+    margin: 0;
+    padding: 5px 0 15px 60px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+.beta.home p {
+    border-bottom: 0;
+    padding: 5px 0 5px 60px;
+}
+
+.beta p span {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 700;
+    background: #0971b2;
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media(max-width:576px) {
+    .beta p {
+        padding: 0 0 10px 60px;
+        min-height: 0;
+    }
+
+        .beta p span {
+            top: 3px;
+        }
+}
+
+
+@media(max-width:400px) {
+    .beta p {
+        padding: 0 0 10px 55px;
+        font-size: 1.3rem;
+    }
+}

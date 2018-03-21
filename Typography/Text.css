@@ -1,0 +1,31 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p, div {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #005ea5;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #005ea5;
+    }
+
+    a:visited,
+    a:focus {
+        color: #4c2c92;
+    }

@@ -1,0 +1,104 @@
+.services-list {
+    padding-bottom: 60px;
+}
+
+    .services-list .service {
+        margin: 0 0 20px 0;
+    }
+
+        .services-list .service .title {
+            display: block;
+            background: #0971b2;
+            font-size: 2.4rem;
+            color: #FFF;
+            margin: 0;
+            padding: 15px 19px;
+        }
+
+        .services-list .service .text {
+            display: block;
+            padding: 15px 15px 0 15px;
+            border-left: 4px solid #0971b2;
+        }
+
+            .services-list .service .text dt {
+                font-size: 1.9rem;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            .services-list .service .text dd {
+                font-size: 1.9rem;
+                padding: 0 0 15px 0;
+            }
+
+            .services-list .service .text p.apply {
+                padding: 0;
+                margin: 0;
+            }
+
+                .services-list .service .text p.apply .btn {
+                    font-size: 1.9rem;
+                    font-weight: 400;
+                }
+
+
+@media(min-width:992px) {
+    .services-list.mobile-concertina .service .text {
+        display: block !important;
+    }
+}
+
+@media(max-width:992px) {
+    .services-list.mobile-concertina .service .text {
+        display: none;
+    }
+
+    .services-list.mobile-concertina .service .title {
+        cursor: pointer;
+    }
+
+        .services-list.mobile-concertina .service .title:after {
+            content: '\f0d7';
+            font-family: FontAwesome;
+            float: right;
+        }
+
+        .services-list.mobile-concertina .service .title.open:after {
+            content: '\f0d8';
+            font-family: FontAwesome;
+            float: right;
+        }
+}
+
+@media(max-width:576px) {
+    .services-list {
+        padding-bottom: 110px;
+    }
+
+        .services-list .service .title {
+            font-size: 2rem;
+        }
+
+    .services-intro .text h1 {
+        font-size: 3rem;
+    }
+
+    .services-intro .text p {
+        font-size: 1.8rem;
+    }
+
+    .services-list .service .text dt {
+        font-size: 1.8rem;
+    }
+
+    .services-list .service .text dd {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:400px) {
+    .services-list .service .text p.apply .btn {
+        width: 100%;
+    }
+}

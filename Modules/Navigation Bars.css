@@ -1,0 +1,133 @@
+.navbar {
+    background: #9d1a31;
+    border-bottom: 10px solid #006EB4;
+    margin-bottom: 10px;
+}
+
+    .navbar .container {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+.navbar-header {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.navbar > .container .navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar-header .logo {
+    color: #FFF;
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+    .navbar-header .logo img {
+        height: 45px;
+        margin: -5px 40px 0 0;
+    }
+
+.navbar-header .visible-xs-block {
+    display: none !important;
+}
+
+@media(max-width:600px) {
+    .navbar .container {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-header .logo {
+        font-size: 2rem;
+    }
+
+        .navbar-header .logo img {
+            margin: -5px 10px 0 0;
+        }
+}
+
+@media(max-width:400px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.navbar .login {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+    .navbar .login > a {
+        display: block;
+        border: 1px solid #FFF;
+        background: #0971b2;
+        color: #FFF;
+        font-size: 1.9rem;
+        padding: 7px 35px;
+        text-decoration: none;
+        font-weight: 300;
+        -webkit-transition: background-color 200ms linear;
+        -moz-transition: background-color 200ms linear;
+        -o-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+    }
+
+        .navbar .login > a:after {
+            content: "\f054";
+            font-family: FontAwesome;
+            margin: 0 0 0 8px;
+        }
+
+        .navbar .login > a:hover {
+            background: #FFF;
+            color: #0971b2;
+        }
+
+.navbar .username {
+    display: block;
+    font-size: 1.9rem;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+    width: 186px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+    .navbar .username a {
+        color: #FFF;
+        font-weight: 300;
+    }
+
+        .navbar .username a:hover {
+            text-decoration: none;
+        }
+
+@media(max-width:576px) {
+    .navbar .login a {
+        padding: 7px 15px;
+    }
+}
+
+@media(max-width:400px) {
+    .navbar .login,
+    .navbar .username {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .username {
+        padding-bottom: 5px;
+    }
+
+    .navbar .login a {
+        max-width: 220px;
+        margin: 10px auto 10px auto;
+    }
+}

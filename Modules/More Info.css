@@ -1,0 +1,39 @@
+.more-info .text {
+    border-left: 4px solid #0971b2;
+}
+
+.more-info .title {
+    display: block;
+    background: #0971b2;
+    font-size: 2.4rem;
+    color: #FFF;
+    margin: 0;
+    padding: 15px 19px;
+}
+
+.more-info ul {
+    font-size: 1.9rem;
+    margin: 0;
+    padding: 15px 15px 0 15px;
+    list-style: none;
+}
+
+    .more-info ul li {
+        padding: 0 0 10px 0;
+    }
+
+@media(max-width:992px) {
+    .more-info {
+        padding-top: 30px;
+    }
+}
+
+@media(max-width:576px) {
+    .more-info .title {
+        font-size: 2.2rem;
+    }
+
+    .more-info ul {
+        font-size: 1.8rem;
+    }
+}

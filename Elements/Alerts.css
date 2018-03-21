@@ -1,0 +1,57 @@
+.alert {
+    padding: 15px;
+    margin-bottom: 40px;
+    border: 4px solid #503b91;
+    font-size: 1.9rem;
+}
+
+    .alert h4 {
+        font-size: 2.4rem;
+    }
+
+    .alert h3 {
+        font-size: 2.4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .alert .validation-subheader {
+        font-size: 1.9rem;
+        padding: 0;
+        margin: 0;
+        color: #503b91;
+    }
+
+@media(max-width:576px) {
+    .alert {
+        font-size: 1.8rem;
+    }
+
+        .alert h4 {
+            font-size: 1.9rem;
+        }
+}
+
+.alert-success {
+    background-color: #FFF;
+    border-color: #503b91;
+    color: #333
+}
+
+.alert-info {
+    background-color: #FFF;
+    border-color: #503b91;
+    color: #333
+}
+
+.alert-warning {
+    background-color: #FFF;
+    border-color: #503b91;
+    color: #333
+}
+
+.alert-danger {
+    background-color: #FFF;
+    border-color: #503b91;
+    color: #333
+}

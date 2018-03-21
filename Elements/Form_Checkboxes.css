@@ -1,0 +1,113 @@
+.entity-form fieldset .form-control-cell {
+    padding-bottom: 30px;
+}
+
+.entity-form fieldset .checkbox-cell {
+    position: relative;
+}
+
+    .entity-form fieldset .checkbox-cell .info {
+        float: right;
+        width: 100%;
+        margin: 0 !important;
+        z-index: 2 !important;
+        padding: 0 !important;
+    }
+
+        .entity-form fieldset .checkbox-cell .info label {
+            display: block;
+            position: relative;
+            padding: 0 0 0 40px;
+            cursor: pointer;
+        }
+
+.entity-form fieldset .checkbox input[type="checkbox"] {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.entity-form.styled fieldset .checkbox input[type="checkbox"] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute
+}
+
+.entity-form fieldset .checkbox-cell .control {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    z-index: -1 !important;
+}
+
+.entity-form fieldset table[data-name="tab_2_section_1"] .checkbox-cell .control {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.entity-form fieldset .checkbox {
+    float: left;
+    width: 100%;
+    padding: 0 !important;
+    margin: -3px 0 0 0 !important;
+    line-height: 28px;
+}
+
+    .entity-form fieldset .checkbox em {
+        float: left;
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        font-style: normal;
+        color: #503b91;
+    }
+
+        .entity-form fieldset .checkbox em:after {
+            content: "\f096";
+            font-family: FontAwesome;
+        }
+
+    .entity-form fieldset .checkbox input:checked + em:after {
+        content: "\f046";
+        font-family: FontAwesome;
+    }
+
+
+@media(max-width:992px) {
+
+    .entity-form fieldset .checkbox-cell .info {
+        width: 92%;
+    }
+
+    .entity-form fieldset .checkbox-cell .control {
+        width: 8%;
+    }
+}
+
+
+@media(max-width:576px) {
+
+    .entity-form fieldset .checkbox-cell .info {
+        width: 90%;
+    }
+
+    .entity-form fieldset .checkbox-cell .control {
+        width: 10%;
+    }
+}
+
+@media(max-width:480px) {
+
+    .entity-form fieldset .checkbox-cell .info {
+        width: 85%;
+    }
+
+        .entity-form fieldset .checkbox-cell .info label {
+            font-size: 1.8rem;
+        }
+
+    .entity-form fieldset .checkbox-cell .control {
+        width: 15%;
+    }
+}

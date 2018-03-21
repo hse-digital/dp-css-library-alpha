@@ -1,0 +1,180 @@
+.btn-group {
+    position: relative;
+}
+
+.entity-form fieldset #btnSubmit,
+.entity-form fieldset #btnClear,
+.btn-primary {
+    background-color: #0971b2;
+    padding: 8px 15px 8px 15px;
+    border: 2px solid #0971b2;
+    color: #FFF !important;
+    text-decoration: none;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+    .btn-primary:focus,
+    .btn-primary.focus {
+        background-color: #0971b2;
+    }
+
+    .btn-primary:active,
+    .btn-primary.active {
+        background-color: #0971b2;
+    }
+
+        .btn-primary:active:hover,
+        .btn-primary:active:focus,
+        .btn-primary:active.focus,
+        .btn-primary.active:hover,
+        .btn-primary.active:focus,
+        .btn-primary.active.focus {
+            background-color: #0971b2;
+        }
+
+.btn-apply {
+    background: #0971b2 url("../img/btn-arrow-next.png") no-repeat 93% 50%;
+    background-size: auto 20px !important;
+    min-width: 180px;
+    text-align: left;
+}
+
+.btn-group .btn {
+    font-size: 2.4rem;
+    padding: 8px 15px;
+    margin: 5px;
+    border: 2px solid #CCC;
+    color: #666;
+}
+
+    .btn-group .btn.previous-btn {
+        background-image: url("../img/btn-arrow-previous-white.png");
+        background: #FFF url("../img/btn-arrow-previous.png") no-repeat 5% 50%;
+        padding: 8px 25px 8px 55px;
+        border: 1px solid #CCC;
+        border-left: 4px solid #CCC;
+        -webkit-transition: all 200ms linear;
+        -moz-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;
+    }
+
+        .btn-group .btn.previous-btn:hover {
+            background-color: #666;
+            border-color: #666;
+            color: #FFF;
+            background-image: url("../img/btn-arrow-previous-white.png");
+        }
+
+    .btn-group .btn.submit-btn,
+    .btn.apply-btn {
+        background: #0971b2 url("../img/btn-arrow-next.png") no-repeat 95% 50%;
+        padding: 8px 55px 8px 25px;
+        border-color: #0971b2;
+        color: #FFF;
+    }
+
+.btn.apply-btn {
+    font-size: 2.4rem;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.btn-group .btn.exit-btn {
+    background-image: url("../img/btn-arrow-exit-white.png");
+    background: #FFF url("../img/btn-arrow-exit.png") no-repeat 95% 50% !important;
+    padding: 8px 55px 8px 25px;
+    border: 1px solid #CCC;
+    border-right: 4px solid #CCC;
+    color: #666 !important;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+    .btn-group .btn.exit-btn:hover {
+        background-image: url("../img/btn-arrow-exit-white.png") !important;
+        background-color: #666 !important;
+        border-color: #666;
+        color: #FFF !important;
+    }
+
+.btn-xs,
+.btn-group-xs > .btn,
+.btn-xs:focus,
+.btn-group-xs > .btn:focus,
+.btn-xs:active,
+.btn-group-xs > .btn:active {
+    font-size: 18px;
+    background: #0971b2;
+    border-color: #0971b2;
+    color: #FFF !important;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+    .entity-form fieldset #btnSubmit:hover,
+    .entity-form fieldset #btnClear:hover,
+    .btn-primary:hover,
+    .btn-primary:active:hover,
+    .btn-primary.active:hover,
+    .btn-xs:hover,
+    .btn-group-xs > .btn:hover,
+    .btn-group .btn.submit-btn:hover,
+    .btn.apply-btn:hover {
+        background-color: #FFF;
+        border-color: #0971b2;
+        color: #0971b2 !important;
+    }
+
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover {
+    background-image: url("../img/btn-arrow-next-blue.png") !important;
+}
+
+.btn-primary.create-action {
+    background-image: none !important;
+}
+
+.btn-apply:hover,
+.btn.apply-btn:hover {
+    background-color: #FFF;
+    border-color: #0971b2;
+    color: #0971b2 !important;
+    background-image: url("../img/btn-arrow-next-blue.png") !important;
+}
+
+@media(max-width:576px) {
+    .btn-group .btn,
+    .btn.apply-btn {
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width:500px) {
+    .btn-group {
+        float: left;
+        width: 100%;
+    }
+
+    .actions.second-actions {
+        border-top: none !important;
+    }
+
+        .actions.second-actions .btn-group,
+        .actions.second-actions .btn-group:last-of-type {
+            margin: 0 !important;
+        }
+
+    .btn-group .btn {
+        width: 100%;
+        font-size: 2rem;
+    }
+}

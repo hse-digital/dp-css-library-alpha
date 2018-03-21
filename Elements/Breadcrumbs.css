@@ -1,0 +1,24 @@
+.breadcrumb {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #c6c6c6;
+    margin: 0;
+    padding: 15px 0;
+}
+
+    .breadcrumb > li + li:before {
+        content: "\f105";
+        font-family: FontAwesome;
+        padding: 0 5px;
+        color: #666;
+    }
+
+    .breadcrumb > .active {
+        color: #333
+    }
+
+@media(max-width:576px) {
+    .breadcrumb {
+        font-size: 1.7rem;
+        padding: 8px 0 10px 0;
+    }
+}

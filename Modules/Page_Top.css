@@ -1,0 +1,28 @@
+.page-top:after{
+	display: block;
+	margin: 0 15px;
+	content: "";
+	border-bottom: 2px solid #CCC;
+}
+
+.page-top .breadcrumb{
+	border-bottom: none;
+}
+
+.page-top .services-share{
+	padding-top: 17px;
+}
+
+.page-top .services-share .text-right{
+	padding-left: 0;
+}
+
+.page-top .services-share a{
+	margin: 0 0 0 5px;
+}
+
+@media(max-width:576px) {
+	.page-top .services-share a{
+		margin: 0;
+	}
+}
