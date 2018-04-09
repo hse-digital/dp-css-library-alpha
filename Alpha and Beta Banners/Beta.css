@@ -8,10 +8,13 @@
     border-bottom: 2px solid #c6c6c6;
 }
 
+
+
 .beta.home p {
     border-bottom: 0;
     padding: 5px 0 5px 60px;
 }
+
 
 .beta p span {
     display: inline-block;
@@ -24,6 +27,7 @@
     left: 0;
 }
 
+
 @media(max-width:576px) {
     .beta p {
         padding: 0 0 10px 60px;
@@ -34,6 +38,7 @@
             top: 3px;
         }
 }
+
 
 
 @media(max-width:400px) {
